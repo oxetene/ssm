@@ -1,0 +1,11 @@
+![logo](https://github.com/Oxetene/ssm/blob/main/ssm.png)
+
+# Requirements
+
+To build ssm you need the Xlib header files.
+
+# Installation
+
+- Edit config.h to your liking, add the paths to your bash scripts and their update signals.
+- Use the following command to build and install ssm (use root if necessary): `make install`
+- Add ssm to your .xinitrc to have it run every time you enter a new X session.
